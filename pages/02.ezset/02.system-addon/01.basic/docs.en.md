@@ -36,4 +36,8 @@ For example, add a comment to mark copyright:
 
 ![](p-2017-10-25-009.jpg)
 
+This field also able to use PHP, you can use Joomla API to make some logic. This example add a style tag only for frontend.
 
+![](p-2017-10-25-010.jpg)
+
+> **NOTE** The content you write here will appear in both site and admin, do not use this field to insert Google Analytics or some frontend analysis code. Otherwise you must limit the application client by PHP yourself.
