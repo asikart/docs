@@ -33,3 +33,5 @@ Simple IP block function to help you allow or deny IP to access your site.
 Choose `Allow` to only allow IPs you set to access your site and block all users. Or choose `Deny` to allow all access except the IPs you set.
 
 You can select `site` and `administrator` checkboxes to enable this function on particular client.
+
+> Currently we dont't support wildcards (`*`), so you must add an IP per line.
