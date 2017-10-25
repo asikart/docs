@@ -10,6 +10,6 @@ You must enable [Debug Language](https://docs.joomla.org/Debugging_a_translation
 
 After enable this fuction and **Debug Language** config, go to browse all pages with untranslated languages, all language keys will log in `logs/languages.ini`, just copy it to your language file and translate it.
 
-
+![](p-2017-10-25-019.jpg)
 
 
