@@ -28,7 +28,7 @@ Default is `|`, this will replace the `|` chatacters in **Title Format** field. 
 
 Google will ignore css, js and image files if they are in the folders which robots.txt disallowed, this function will remove some folders from robots.txt so Google can index necessary media files.
 
-See [this article](https://joomlaseo.com/checklist/robots-txt-for-search-engines).
+See this article [Robots.txt and robots meta tag configuration](https://joomlaseo.com/checklist/robots-txt-for-search-engines).
 
 The new robots.txt will looks like:
 
