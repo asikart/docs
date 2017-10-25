@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1508902846,
-    'checksum' => '23dff912302dcb9960ba5cbdfc69be64',
+    'timestamp' => 1508903880,
+    'checksum' => 'd36cee45579d4c8694a4772fcb674282',
     'files' => [
         'user/config' => [
             'media' => [
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1508902819
+                'modified' => 1508903880
             ],
             'themes/learn2' => [
                 'file' => 'user/config/themes/learn2.yaml',
@@ -728,7 +728,7 @@ return [
             'languages' => [
                 'supported' => [
                     0 => 'en',
-                    1 => 'tw'
+                    1 => 'zh-TW'
                 ],
                 'include_default_lang' => true,
                 'translations' => true,

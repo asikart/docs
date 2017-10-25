@@ -8,7 +8,7 @@ pwd_regex: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
 languages:
   supported:
     - en
-    - tw
+    - zh-TW
   include_default_lang: true
   translations: true
   translations_fallback: true
