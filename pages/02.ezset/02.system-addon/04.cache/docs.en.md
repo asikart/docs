@@ -2,9 +2,9 @@
 title: Cache
 ---
 
-Ezset Cache management can control Joomla `System - Cache` plugin enable and disable in particular pages.
+Ezset Cache management can control Joomla [System - Page Cache](https://docs.joomla.org/Cache#Page_Caching) plugin enable and disable in particular pages.
 
-By default, if you enabled `System - Cache` plugin, it will work on every pages of your site, but it will make some extensions not work, for instance, if you have a contact form and you hope customer can write some message to you, system cache plugin will make this form unsubmitable.
+By default, if you enabled `System - Page Cache` plugin, it will work on every pages of your site and cache whole page as pure HTML, but it will make some extensions not work, for instance, if you have a contact form and you hope customer can write some message to you, page cache plugin will make this form unsubmitable.
 
 ![](p-2017-10-25-017.jpg)
 
