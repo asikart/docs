@@ -32,6 +32,8 @@ You can insert some custom code to HTML `<head>`.
 
 For example, add a comment to mark copyright:
 
+![](p-2017-10-25-008.jpg)
 
+![](p-2017-10-25-009.jpg)
 
 
