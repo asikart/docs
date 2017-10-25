@@ -4,13 +4,13 @@ title: Security
 
 ## Admin Protect
 
-This function helps you protect your administrator to get rid of direct access.
+This function helps you protect your administrator to get rid of direct access. There are 3 options you can choose:
 
 ### URL
 
 The option must add the security code after admin URL, for example, if you set Security Code as `ezset`, you must use `/administrator?ezset` to access your admin, otherwise Ezset will redirect you back to frontend.
 
-
+![](p-2017-10-25-012.jpg)
 
 ### HTTP Auth
 
