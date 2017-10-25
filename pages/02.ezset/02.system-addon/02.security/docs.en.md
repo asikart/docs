@@ -42,4 +42,4 @@ You can select `site` and `administrator` checkboxes to enable this function on 
 
 Joomla's folders and files are exposure on webroot, so everyone who knows you use Joomla can guess and try access some sensitive files or dirs. For example, if some 3rd extensions add text logs to `logs` folder, it can be opened by browser if someone is familiar to this extension.
 
-Ezset can auto add `.htaccess` (Apache) and `web.config` (IIS) to protect your dir and files to prevent direct access. Just click these buttons, you can remove protects as any time if you want.
+Ezset can auto add `.htaccess` (Apache) and `web.config` (IIS) to protect your dir and files to prevent direct access. Just click these buttons. You can also remove protects at any time if you want.
