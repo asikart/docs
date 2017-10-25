@@ -44,4 +44,4 @@ Joomla's folders and files are exposure on webroot, so everyone who knows you us
 
 For example, if some 3rd extensions add text logs to `logs` folder, it can be opened by browser if someone is familiar to this extension. Another case is that if hacker inject trojan code to Joomla files, they can execute any commands from remote. This function can also protect your site from remote attack.
 
-Ezset can auto add `.htaccess` (Apache) and `web.config` (IIS) to protect your dir and files to prevent direct access. Just click these buttons. You can also remove protects at any time if you want.
+Click the `Protect` buttons and Ezset will auto add `.htaccess` (Apache) and `web.config` (IIS) to protect your dir and files to prevent direct access. You can also remove protects at any time if you want.
