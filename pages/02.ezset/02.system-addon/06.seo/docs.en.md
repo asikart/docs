@@ -6,7 +6,7 @@ This tab is to configure SEO for whole site. The settings about [Article SEO] pl
 
 ## Page Title
 
-
+![](p-2017-10-25-021.jpg)
 
 This function can replace Joomla core [Add Site Name To Page Titles](https://docs.joomla.org/J3.x:Global_configuration#SEO_Settings_Group) settings. It is more flexiable and configurable that you can customize the title format. 
 
