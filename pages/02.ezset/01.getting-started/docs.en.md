@@ -17,3 +17,17 @@ After installed, Ezset will create an `ezset` folder in Joomla root, it contains
 ![](p-2017-10-25-002.jpg)
 
 Now click the Ezset logo and you will go to Ezset admin.
+
+## Concept
+
+Ezset has many functions, these functions has been organizated in some addons. By default, you can see 3 addons, `system`, `article` and `templating`
+
+![](p-2017-10-25-003.jpg)
+
+Every addon has many tabs and fields, the fields is the setting that you can configure your site or provides some useful functions. You can see description when you hover the field label or read the help text at right side.
+
+![](p-2017-10-25-005.jpg)
+
+Ezset is extendable, it allows you to create your own addon and customize everything for your site or your client. Before you start writing your own addon, we recommend you to read this document for learning how Ezset basic function works.
+
+
