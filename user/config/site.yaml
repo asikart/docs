@@ -1,0 +1,17 @@
+title: 'Asikart Docs'
+default_lang: en
+author:
+  name: 'Simon Asika'
+  email: asika32764@gmail.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Asikart extenstions docs.'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
