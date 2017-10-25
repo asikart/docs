@@ -35,3 +35,11 @@ Choose `Allow` to only allow IPs you set to access your site and block all users
 You can select `site` and `administrator` checkboxes to enable this function on particular client.
 
 > Currently we dont't support wildcards (`*`), so you must add an IP per line.
+
+## Folder Protect
+
+![](p-2017-10-25-016.jpg)
+
+Joomla's folders and files are exposure on webroot, so everyone who knows you use Joomla can guess and try access some sensitive files or dirs. For example, if some 3rd extensions add text logs to `logs` folder, it can be opened by browser if someone is familiar to this extension.
+
+Ezset can auto add `.htaccess` (Apache) and `web.config` (IIS) to protect your dir and files to prevent direct access. Just click these buttons, you can remove protects as any time if you want.
