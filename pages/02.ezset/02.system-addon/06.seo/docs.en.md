@@ -24,5 +24,31 @@ Set the title format you wish. Use `|` to separate variables, there are 3 variab
 
 Default is `|`, this will replace the `|` chatacters in **Title Format** field. If you set `{%TITLE%} | {%SITE%}` in **Title Format** and `-` in **Title Separator**, your title will be `Title - Sitename`.
 
+## Robots
+
+Google will ignore css, js and image files if they are in the folders which robots.txt disallowed, this function will remove some folders from robots.txt so Google can index necessary media files.
+
+See [this article](https://joomlaseo.com/checklist/robots-txt-for-search-engines).
+
+The new robots.txt will looks like:
+
+```
+User-agent: *
+Disallow: /administrator/
+Disallow: /bin/
+# Disallow: /cache/
+Disallow: /cli/
+# Disallow: /components/
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /layout/
+# Disallow: /libraries/
+Disallow: /logs/
+# Disallow: /modules/
+# Disallow: /plugins/
+Disallow: /tmp/
+```
+
 
 
