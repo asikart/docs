@@ -23,3 +23,13 @@ Use Apache HTTP authentication popup, you must enter security code at password f
 This option will not use security code, you must enter your username and password at HTTP auth popup, then you will directly logged-in.
 
 ![](p-2017-10-25-014-2.jpg)
+
+## IP Block
+
+Simple IP block function to help you allow or deny IP to access your site.
+
+![](p-2017-10-25-015.jpg)
+
+Choose `Allow` to only allow IPs you set to access your site and block all users. Or choose `Deny` to allow all access except the IPs you set.
+
+You can select `site` and `administrator` checkboxes to enable this function on particular client.
