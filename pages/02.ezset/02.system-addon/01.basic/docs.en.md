@@ -26,6 +26,12 @@ If you submit your site to [Google Webmaster](https://www.google.com/webmasters)
 
 ![](c7918ad9-42ed-4033-bb25-32b4b2533a78.jpg)
 
+## Head
+
+You can insert some custom code to HTML `<head>`.
+
+For example, add a comment to mark copyright:
+
 
 
 
