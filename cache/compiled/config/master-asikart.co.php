@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1508901235,
-    'checksum' => 'e87bc8cd43714cdd3b667cbd0f40c298',
+    'timestamp' => 1508902846,
+    'checksum' => '23dff912302dcb9960ba5cbdfc69be64',
     'files' => [
         'user/config' => [
             'media' => [
@@ -12,6 +12,10 @@ return [
             'plugins/custom-css' => [
                 'file' => 'user/config/plugins/custom-css.yaml',
                 'modified' => 1508901235
+            ],
+            'plugins/git-sync' => [
+                'file' => 'user/config/plugins/git-sync.yaml',
+                'modified' => 1508902002
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -27,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1508822712
+                'modified' => 1508902819
             ],
             'themes/learn2' => [
                 'file' => 'user/config/themes/learn2.yaml',
@@ -68,6 +72,10 @@ return [
             'plugins/git-sync' => [
                 'file' => 'user/plugins/git-sync/git-sync.yaml',
                 'modified' => 1508822544
+            ],
+            'plugins/langswitcher' => [
+                'file' => 'user/plugins/langswitcher/langswitcher.yaml',
+                'modified' => 1508902819
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
@@ -207,7 +215,31 @@ return [
             ],
             'git-sync' => [
                 'enabled' => true,
-                'text_var' => 'Custom Text added by the **Git Sync** plugin (disable plugin to remove)'
+                'text_var' => 'Custom Text added by the **Git Sync** plugin (disable plugin to remove)',
+                'folders' => [
+                    0 => 'pages'
+                ],
+                'repository' => 'https://github.com/asikart/docs',
+                'user' => 'asika32764',
+                'password' => 'gitsync-def50200740423062d9608317634dfc6928d29925568047dc547640f3ec98bb23649a3d0a92eb7fc5407cf992e2cb657b440ac0860a30ed2fd0c4f15aa6670437556fde34abf2cbc04c227209fe50742517fe14f74092e84751255d69240f56466a9f538e9665ef34cab75893b99171092c15af0f23c9663f092ee98',
+                'webhook' => '/_git-sync',
+                'branch' => 'master',
+                'remote' => [
+                    'name' => 'origin',
+                    'branch' => 'master'
+                ],
+                'git' => [
+                    'author' => 'gituser',
+                    'name' => 'GitSync',
+                    'email' => 'git-sync@trilby.media',
+                    'bin' => 'git'
+                ],
+                'logging' => false
+            ],
+            'langswitcher' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'untranslated_pages_behavior' => 'none'
             ],
             'login' => [
                 'enabled' => true,
@@ -695,7 +727,8 @@ return [
             'pwd_regex' => '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}',
             'languages' => [
                 'supported' => [
-                    
+                    0 => 'en',
+                    1 => 'tw'
                 ],
                 'include_default_lang' => true,
                 'translations' => true,
@@ -846,7 +879,7 @@ return [
                     
                 ],
                 'auto_metadata_exif' => false,
-                'upload_limit' => 2097152
+                'upload_limit' => 20971520
             ],
             'session' => [
                 'enabled' => true,

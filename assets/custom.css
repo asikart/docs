@@ -8,6 +8,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* LOGO */
+#logo::after {
+    content: "ASIKART";
+    display: inline-block;
+    font-size: 3em;
+    width: 100%;
+    height: 50px;
+}
+
 #logo svg {
     display: none;
 }

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1508901034,
-    'checksum' => '481f0257c16789efb8dde2cd7eb04374',
+    'timestamp' => 1508902847,
+    'checksum' => '1492652bbfda180fa02f382ffe80d8f8',
     'files' => [
         'user/plugins/admin/blueprints/config' => [
             'media' => [
@@ -44,6 +44,10 @@ return [
             'plugins/git-sync' => [
                 'file' => 'user/plugins/git-sync/blueprints.yaml',
                 'modified' => 1508822544
+            ],
+            'plugins/langswitcher' => [
+                'file' => 'user/plugins/langswitcher/blueprints.yaml',
+                'modified' => 1508902819
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
@@ -2796,6 +2800,55 @@ return [
                 'name' => 'plugins.git-sync._wizard',
                 'validation' => 'strict'
             ],
+            'plugins.langswitcher' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.langswitcher.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Plugin status',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.langswitcher.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.langswitcher.built_in_css' => [
+                'type' => 'toggle',
+                'label' => 'Use built in CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.langswitcher.built_in_css',
+                'validation' => 'strict'
+            ],
+            'plugins.langswitcher.untranslated_pages_behavior' => [
+                'type' => 'select',
+                'label' => 'Untranslated pages behavior',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'Show language (default)',
+                    'redirect' => 'Show language, link to home route',
+                    'hide' => 'Hide language'
+                ],
+                'name' => 'plugins.langswitcher.untranslated_pages_behavior',
+                'validation' => 'strict'
+            ],
             'plugins.login' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -4334,6 +4387,11 @@ return [
                     ],
                     'logging' => 'plugins.git-sync.logging',
                     '_wizard' => 'plugins.git-sync._wizard'
+                ],
+                'langswitcher' => [
+                    'enabled' => 'plugins.langswitcher.enabled',
+                    'built_in_css' => 'plugins.langswitcher.built_in_css',
+                    'untranslated_pages_behavior' => 'plugins.langswitcher.untranslated_pages_behavior'
                 ],
                 'login' => [
                     'enabled' => 'plugins.login.enabled',

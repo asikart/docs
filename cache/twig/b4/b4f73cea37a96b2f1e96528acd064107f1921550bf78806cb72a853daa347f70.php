@@ -50,15 +50,15 @@ class __TwigTemplate_ad159cbe2764e60a4d43b5261d3d6289a73432c05a0b569d3b52beed3c1
     ";
         // line 44
         $this->displayBlock('sidebar', $context, $blocks);
-        // line 55
+        // line 56
         echo "
     ";
-        // line 56
+        // line 57
         $this->displayBlock('body', $context, $blocks);
-        // line 89
+        // line 90
         echo "    ";
         $this->displayBlock('analytics', $context, $blocks);
-        // line 94
+        // line 95
         echo " </body>
 </html>
 ";
@@ -197,20 +197,23 @@ class __TwigTemplate_ad159cbe2764e60a4d43b5261d3d6289a73432c05a0b569d3b52beed3c1
         // line 49
         $this->loadTemplate("partials/search.html.twig", "partials/base.html.twig", 49)->display($context);
         // line 50
+        echo "                ";
+        $this->loadTemplate("partials/langswitcher.html.twig", "partials/base.html.twig", 50)->display($context);
+        // line 51
         echo "            </div>
         </div>
         ";
-        // line 52
-        $this->loadTemplate("partials/sidebar.html.twig", "partials/base.html.twig", 52)->display($context);
         // line 53
+        $this->loadTemplate("partials/sidebar.html.twig", "partials/base.html.twig", 53)->display($context);
+        // line 54
         echo "    </nav>
     ";
     }
 
-    // line 56
+    // line 57
     public function block_body($context, array $blocks = array())
     {
-        // line 57
+        // line 58
         echo "    <section id=\"body\">
         <div id=\"overlay\"></div>
 
@@ -218,103 +221,103 @@ class __TwigTemplate_ad159cbe2764e60a4d43b5261d3d6289a73432c05a0b569d3b52beed3c1
             <a href=\"#\" id=\"sidebar-toggle\" data-sidebar-toggle><i class=\"fa fa-2x fa-bars\"></i></a>
 
             ";
-        // line 63
+        // line 64
         $this->displayBlock('topbar', $context, $blocks);
-        // line 76
-        echo "
-            ";
         // line 77
-        $this->displayBlock('content', $context, $blocks);
-        // line 78
         echo "
             ";
+        // line 78
+        $this->displayBlock('content', $context, $blocks);
         // line 79
+        echo "
+            ";
+        // line 80
         $this->displayBlock('footer', $context, $blocks);
-        // line 84
+        // line 85
         echo "
         </div>
         ";
-        // line 86
-        $this->displayBlock('navigation', $context, $blocks);
         // line 87
+        $this->displayBlock('navigation', $context, $blocks);
+        // line 88
         echo "    </section>
     ";
     }
 
-    // line 63
+    // line 64
     public function block_topbar($context, array $blocks = array())
     {
         if (((($context["github_link_position"] ?? null) == "top") || $this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "breadcrumbs", array()), "enabled", array()))) {
-            // line 64
+            // line 65
             echo "            <div id=\"top-bar\">
                 ";
-            // line 65
+            // line 66
             if ((($context["github_link_position"] ?? null) == "top")) {
-                // line 66
+                // line 67
                 echo "                <div id=\"top-github-link\">
                 ";
-                // line 67
-                $this->loadTemplate("partials/github_link.html.twig", "partials/base.html.twig", 67)->display($context);
                 // line 68
+                $this->loadTemplate("partials/github_link.html.twig", "partials/base.html.twig", 68)->display($context);
+                // line 69
                 echo "                </div>
                 ";
             }
-            // line 70
+            // line 71
             echo "
                 ";
-            // line 71
+            // line 72
             if ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "breadcrumbs", array()), "enabled", array())) {
-                // line 72
-                echo "                ";
-                $this->loadTemplate("partials/breadcrumbs.html.twig", "partials/base.html.twig", 72)->display($context);
                 // line 73
                 echo "                ";
+                $this->loadTemplate("partials/breadcrumbs.html.twig", "partials/base.html.twig", 73)->display($context);
+                // line 74
+                echo "                ";
             }
-            // line 74
+            // line 75
             echo "            </div>
             ";
         }
     }
 
-    // line 77
+    // line 78
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 79
+    // line 80
     public function block_footer($context, array $blocks = array())
     {
-        // line 80
+        // line 81
         echo "                ";
         if ((($context["github_link_position"] ?? null) == "bottom")) {
-            // line 81
-            echo "                ";
-            $this->loadTemplate("partials/github_note.html.twig", "partials/base.html.twig", 81)->display($context);
             // line 82
             echo "                ";
+            $this->loadTemplate("partials/github_note.html.twig", "partials/base.html.twig", 82)->display($context);
+            // line 83
+            echo "                ";
         }
-        // line 83
+        // line 84
         echo "            ";
     }
 
-    // line 86
+    // line 87
     public function block_navigation($context, array $blocks = array())
     {
     }
 
-    // line 89
+    // line 90
     public function block_analytics($context, array $blocks = array())
     {
-        // line 90
+        // line 91
         echo "        ";
         if ($this->getAttribute(($context["theme_config"] ?? null), "google_analytics_code", array())) {
-            // line 91
-            echo "        ";
-            $this->loadTemplate("partials/analytics.html.twig", "partials/base.html.twig", 91)->display($context);
             // line 92
             echo "        ";
+            $this->loadTemplate("partials/analytics.html.twig", "partials/base.html.twig", 92)->display($context);
+            // line 93
+            echo "        ";
         }
-        // line 93
+        // line 94
         echo "    ";
     }
 
@@ -330,7 +333,7 @@ class __TwigTemplate_ad159cbe2764e60a4d43b5261d3d6289a73432c05a0b569d3b52beed3c1
 
     public function getDebugInfo()
     {
-        return array (  318 => 93,  315 => 92,  312 => 91,  309 => 90,  306 => 89,  301 => 86,  297 => 83,  294 => 82,  291 => 81,  288 => 80,  285 => 79,  280 => 77,  274 => 74,  271 => 73,  268 => 72,  266 => 71,  263 => 70,  259 => 68,  257 => 67,  254 => 66,  252 => 65,  249 => 64,  245 => 63,  240 => 87,  238 => 86,  234 => 84,  232 => 79,  229 => 78,  227 => 77,  224 => 76,  222 => 63,  214 => 57,  211 => 56,  206 => 53,  204 => 52,  200 => 50,  198 => 49,  192 => 48,  187 => 45,  184 => 44,  177 => 38,  174 => 37,  171 => 36,  168 => 35,  165 => 34,  162 => 33,  159 => 32,  156 => 31,  150 => 28,  147 => 27,  144 => 26,  141 => 25,  138 => 24,  135 => 23,  133 => 22,  130 => 21,  127 => 20,  124 => 19,  121 => 18,  118 => 17,  115 => 16,  112 => 15,  107 => 40,  105 => 31,  102 => 30,  100 => 15,  95 => 13,  91 => 12,  87 => 11,  84 => 10,  82 => 9,  74 => 8,  71 => 7,  68 => 6,  62 => 94,  59 => 89,  57 => 56,  54 => 55,  52 => 44,  46 => 43,  43 => 42,  41 => 6,  36 => 4,  33 => 3,  31 => 2,  29 => 1,);
+        return array (  321 => 94,  318 => 93,  315 => 92,  312 => 91,  309 => 90,  304 => 87,  300 => 84,  297 => 83,  294 => 82,  291 => 81,  288 => 80,  283 => 78,  277 => 75,  274 => 74,  271 => 73,  269 => 72,  266 => 71,  262 => 69,  260 => 68,  257 => 67,  255 => 66,  252 => 65,  248 => 64,  243 => 88,  241 => 87,  237 => 85,  235 => 80,  232 => 79,  230 => 78,  227 => 77,  225 => 64,  217 => 58,  214 => 57,  209 => 54,  207 => 53,  203 => 51,  200 => 50,  198 => 49,  192 => 48,  187 => 45,  184 => 44,  177 => 38,  174 => 37,  171 => 36,  168 => 35,  165 => 34,  162 => 33,  159 => 32,  156 => 31,  150 => 28,  147 => 27,  144 => 26,  141 => 25,  138 => 24,  135 => 23,  133 => 22,  130 => 21,  127 => 20,  124 => 19,  121 => 18,  118 => 17,  115 => 16,  112 => 15,  107 => 40,  105 => 31,  102 => 30,  100 => 15,  95 => 13,  91 => 12,  87 => 11,  84 => 10,  82 => 9,  74 => 8,  71 => 7,  68 => 6,  62 => 95,  59 => 90,  57 => 57,  54 => 56,  52 => 44,  46 => 43,  43 => 42,  41 => 6,  36 => 4,  33 => 3,  31 => 2,  29 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -392,6 +395,7 @@ class __TwigTemplate_ad159cbe2764e60a4d43b5261d3d6289a73432c05a0b569d3b52beed3c1
             <div id=\"header\">
                 <a id=\"logo\" href=\"{{ theme_config.home_url ?: base_url_absolute }}\">{% include 'partials/logo.html.twig' %}</a>
                 {% include 'partials/search.html.twig' %}
+                {% include 'partials/langswitcher.html.twig' %}
             </div>
         </div>
         {% include 'partials/sidebar.html.twig' %}
