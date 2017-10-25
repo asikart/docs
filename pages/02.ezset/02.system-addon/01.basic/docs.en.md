@@ -24,7 +24,7 @@ Set [Google Analytics](https://analytics.google.com) ID here to track your site 
 
 If you submit your site to [Google Webmaster](https://www.google.com/webmasters) (Google Search Console), it will require you to verify domain owner. You can simply choose `HTML meta tag` option and paste the verify code to here. See [Google Search Console document](https://support.google.com/webmasters/answer/79812).
 
-![](Search-Console-Meta-Tag.jpg)
+![](c7918ad9-42ed-4033-bb25-32b4b2533a78.jpg)
 
 
 
