@@ -1,6 +1,8 @@
 ---
-title: Installation
+title: 'Getting Started'
 ---
+
+## Installation
 
 You must purchase Ezset plan on Asikart official site. See http://asikart.co/ezset-plans.html
 
