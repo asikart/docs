@@ -28,6 +28,6 @@ Every addon has many tabs and fields, the fields is the setting that you can con
 
 ![](p-2017-10-25-005.jpg)
 
-Ezset is extendable, it allows you to create your own addon and customize everything for your site or your client. Before you start writing your own addon, we recommend you to read this document for learning how Ezset basic function works.
+Ezset is extendable, it allows you to create your own addon and customize everything for your site or your client. Before you start writing your own addon, we recommend you read this document to learn how Ezset basic function works.
 
 
