@@ -6,6 +6,8 @@ title: Config
 
 This function can quick set some useful settings to your global configuration, just click the button to process it.
 
+![](171026-0003.jpg)
+
 ### Enable SEF Rewrite
 
 Enable SEF rewrite to remove `index.php` from URL and auto rename `htaccess.txt` to `.htaccess`.
