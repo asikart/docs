@@ -6,6 +6,8 @@ This tab has some functions help you do auto SEO settings.
 
 ## Sitemap
 
+![](p-2017-11-20-004.jpg)
+
 Render a XML sitemap for Joomla articles and menus only. Enable this function and type `?cmd=sitemap` after your site URL, for example: `http://mysite.com/?cmd=sitemap`.
 
 It can be a simple & fast way to help you submit Sitemap to Google Webmaster. If you want to integrate more 3rd party extensions to sitemap, please consider other sitemap extensions in [JED](https://extensions.joomla.org/category/structure-a-navigation/site-map/).
@@ -29,5 +31,7 @@ The `Origin Language` will be translate to `Target Language`, by default it is `
 - [Obtain A Google Translate API Key](https://atrilsolutions.zendesk.com/hc/en-us/articles/205540421-How-to-obtain-a-Google-Translate-API-key)
 
 ## SEO Metadata
+
+![](p-2017-11-20-005.jpg)
 
 Enable this function, Ezset will auto get article introtext as meta description if user didn't fill meta description field.
