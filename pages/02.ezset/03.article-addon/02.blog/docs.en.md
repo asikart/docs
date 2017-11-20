@@ -2,8 +2,9 @@
 title: Blog
 ---
 
-
 ## Simple Layout
+
+![](simplelayout-01.jpg)
 
 Convert blog view to a simpler layout with preview image and limited intro text.
 
