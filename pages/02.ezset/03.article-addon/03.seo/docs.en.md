@@ -2,7 +2,6 @@
 title: SEO
 ---
 
-
 This tab has some functions help you do auto SEO settings.
 
 ## Sitemap
@@ -12,6 +11,8 @@ Render a XML sitemap for Joomla articles and menus only. Enable this function an
 It can be a simple & fast way to help you submit Sitemap to Google Webmaster. If you want to integrate more 3rd party extensions to sitemap, please consider other sitemap extensions in [JED](https://extensions.joomla.org/category/structure-a-navigation/site-map/).
 
 ## Alias Translate
+
+![](p-2017-11-20-003.jpg)
 
 Sometimes non-english user will write an article title with their native language, if Joomla can not get any alphanum letters from title, the alias will be time string like `2017-03-02-02-59-00`.
 
