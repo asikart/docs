@@ -20,6 +20,10 @@ This function will show a confirm popup if user want to leave or close page when
 
 Save the first image URL in article content to the intro image field. This is useful if you used some news module which will load the intro image as preview image.
 
+![](p-2017-11-20-001.jpg)
+
+![](p-2017-11-20-002.jpg)
+
 ## Image Resize
 
 If you insert big images to article, you can resize them by mouse in editor, then Ezset will help you generate thumbnails for these images. See example below:
